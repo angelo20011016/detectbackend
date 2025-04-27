@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 
-model = YOLO("best-2.pt")  # 請確認 best-2.pt 跟 main.py 在同一個資料夾
+model = YOLO("yolov8n.pt") # 請確認 best-2.pt 跟 main.py 在同一個資料夾
 
 class_names = [
     'Broken', 'Cut', 'Dry Cherry', 'Fade', 'Floater', 'Full Black', 'Full Sour',
